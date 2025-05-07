@@ -1,0 +1,112 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "Clang",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/home/aidar/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl",
+						"/home/aidar/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/emsdk/upstream/emscripten/cache/sysroot/include/compat",
+						"/home/aidar/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/emsdk/upstream/lib/clang/21/include",
+						"/home/aidar/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/emsdk/upstream/emscripten/cache/sysroot/include"
+					],
+					"linkDirectories" : 
+					[
+						"/home/aidar/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten",
+						"/home/aidar/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/emsdk/upstream/emscripten/src/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"GL-getprocaddr",
+						"al",
+						"html5",
+						"stubs-debug",
+						"noexit",
+						"c-debug",
+						"dlmalloc-debug",
+						"compiler_rt",
+						"c++-noexcept",
+						"c++abi-debug-noexcept",
+						"sockets"
+					]
+				},
+				"path" : "/home/aidar/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/emsdk/upstream/emscripten/emcc",
+				"version" : "21.0.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "Clang",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/home/aidar/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl",
+						"/home/aidar/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/emsdk/upstream/emscripten/cache/sysroot/include/compat",
+						"/home/aidar/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1",
+						"/home/aidar/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/emsdk/upstream/lib/clang/21/include",
+						"/home/aidar/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/emsdk/upstream/emscripten/cache/sysroot/include"
+					],
+					"linkDirectories" : 
+					[
+						"/home/aidar/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten",
+						"/home/aidar/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/emsdk/upstream/emscripten/src/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"GL-getprocaddr",
+						"al",
+						"html5",
+						"stubs-debug",
+						"noexit",
+						"c-debug",
+						"dlmalloc-debug",
+						"compiler_rt",
+						"c++-noexcept",
+						"c++abi-debug-noexcept",
+						"sockets"
+					]
+				},
+				"path" : "/home/aidar/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/emsdk/upstream/emscripten/em++",
+				"version" : "21.0.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
