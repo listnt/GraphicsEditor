@@ -1,4 +1,7 @@
 # Graphics editor
+## Demo
+
+https://listnt.github.io/GraphicsEditor/build/BizierEditor.html
 
 ## Controls 
 left click + drag: move  
