@@ -94,6 +94,11 @@ void instance::Render(Matrix4x4 projection, Matrix4x4 View) {
 
     glUniformMatrix4fv(ViewModelMat, 1, GL_FALSE, flatten(ViewModel).data());
 
+    if (points.size() < 2) {
+        glBindVertexArray(0);
+        return;
+    }
+
     glDrawArrays(this->mode, 0, points.size());
     glBindVertexArray(0);
 }

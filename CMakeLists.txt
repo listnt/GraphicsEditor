@@ -17,8 +17,14 @@ add_executable(BizierEditor main.cpp
         src/base/instance.cpp
         src/base/PickingTexture.cpp
         src/base/PickingTexture.h
-        src/base/BizierCurve.cpp
-        src/base/BizierCurve.h
+        src/primitives/Line.cpp
+        src/primitives/Line.h
+        src/primitives/BizierCurve.cpp
+        src/primitives/BizierCurve.h
+        src/primitives/LineStrip.h
+        src/primitives/LineStrip.cpp
+        src/app/app.cpp
+        src/app/app.h
 )
 
 add_subdirectory(imgui)

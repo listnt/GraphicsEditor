@@ -98,7 +98,8 @@ public:
 
 
     ~instance() {
-        printf("Delete");
+        printf("Delete instance\n");
+        glDeleteVertexArrays(1, &VAO);
         glDeleteBuffers(1, &VBO);
         glDeleteBuffers(1, &ZIndex);
         glDeleteBuffers(1, &Color);
@@ -115,16 +116,13 @@ public:
 
     void Scale(Vector3f S);
 
-    void virtual Resize(int top, int bottom) {
-    };
-
     void virtual Pick() {
     };
 
     void virtual Unpick() {
     };
 
-    void SetUniformColor(Vector4f);
+    virtual void SetUniformColor(Vector4f);
 };
 
 #endif //INSTANCE_H

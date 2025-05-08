@@ -182,6 +182,10 @@ Vector3f Lerp(Vector3f a, Vector3f b, double t) {
     return Vector3f(a.x + (b.x - a.x) * t, a.y + (b.y - a.y) * t, a.z + (b.z - a.z) * t);
 }
 
+Vector2f Lerp(Vector2f a, Vector2f b, double t) {
+    return Vector2f(a.x + (b.x - a.x) * t, a.y + (b.y - a.y) * t);
+}
+
 Vector4f ZIndexToColor4f(int zIndex) {
     int r = (zIndex & 0x000000FF) >> 0;
     int g = (zIndex & 0x0000FF00) >> 8;

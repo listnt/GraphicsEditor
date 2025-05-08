@@ -166,29 +166,29 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BizierEditor.dir/build.make CMakeFiles/BizierEditor.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/base/BizierCurve.o: src/base/BizierCurve.cpp.o
-.PHONY : src/base/BizierCurve.o
+src/app/app.o: src/app/app.cpp.o
+.PHONY : src/app/app.o
 
 # target to build an object file
-src/base/BizierCurve.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BizierEditor.dir/build.make CMakeFiles/BizierEditor.dir/src/base/BizierCurve.cpp.o
-.PHONY : src/base/BizierCurve.cpp.o
+src/app/app.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BizierEditor.dir/build.make CMakeFiles/BizierEditor.dir/src/app/app.cpp.o
+.PHONY : src/app/app.cpp.o
 
-src/base/BizierCurve.i: src/base/BizierCurve.cpp.i
-.PHONY : src/base/BizierCurve.i
+src/app/app.i: src/app/app.cpp.i
+.PHONY : src/app/app.i
 
 # target to preprocess a source file
-src/base/BizierCurve.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BizierEditor.dir/build.make CMakeFiles/BizierEditor.dir/src/base/BizierCurve.cpp.i
-.PHONY : src/base/BizierCurve.cpp.i
+src/app/app.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BizierEditor.dir/build.make CMakeFiles/BizierEditor.dir/src/app/app.cpp.i
+.PHONY : src/app/app.cpp.i
 
-src/base/BizierCurve.s: src/base/BizierCurve.cpp.s
-.PHONY : src/base/BizierCurve.s
+src/app/app.s: src/app/app.cpp.s
+.PHONY : src/app/app.s
 
 # target to generate assembly for a file
-src/base/BizierCurve.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BizierEditor.dir/build.make CMakeFiles/BizierEditor.dir/src/base/BizierCurve.cpp.s
-.PHONY : src/base/BizierCurve.cpp.s
+src/app/app.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BizierEditor.dir/build.make CMakeFiles/BizierEditor.dir/src/app/app.cpp.s
+.PHONY : src/app/app.cpp.s
 
 src/base/PickingTexture.o: src/base/PickingTexture.cpp.o
 .PHONY : src/base/PickingTexture.o
@@ -286,6 +286,54 @@ src/base/instance.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BizierEditor.dir/build.make CMakeFiles/BizierEditor.dir/src/base/instance.cpp.s
 .PHONY : src/base/instance.cpp.s
 
+src/primitives/BizierCurve.o: src/primitives/BizierCurve.cpp.o
+.PHONY : src/primitives/BizierCurve.o
+
+# target to build an object file
+src/primitives/BizierCurve.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BizierEditor.dir/build.make CMakeFiles/BizierEditor.dir/src/primitives/BizierCurve.cpp.o
+.PHONY : src/primitives/BizierCurve.cpp.o
+
+src/primitives/BizierCurve.i: src/primitives/BizierCurve.cpp.i
+.PHONY : src/primitives/BizierCurve.i
+
+# target to preprocess a source file
+src/primitives/BizierCurve.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BizierEditor.dir/build.make CMakeFiles/BizierEditor.dir/src/primitives/BizierCurve.cpp.i
+.PHONY : src/primitives/BizierCurve.cpp.i
+
+src/primitives/BizierCurve.s: src/primitives/BizierCurve.cpp.s
+.PHONY : src/primitives/BizierCurve.s
+
+# target to generate assembly for a file
+src/primitives/BizierCurve.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BizierEditor.dir/build.make CMakeFiles/BizierEditor.dir/src/primitives/BizierCurve.cpp.s
+.PHONY : src/primitives/BizierCurve.cpp.s
+
+src/primitives/Line.o: src/primitives/Line.cpp.o
+.PHONY : src/primitives/Line.o
+
+# target to build an object file
+src/primitives/Line.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BizierEditor.dir/build.make CMakeFiles/BizierEditor.dir/src/primitives/Line.cpp.o
+.PHONY : src/primitives/Line.cpp.o
+
+src/primitives/Line.i: src/primitives/Line.cpp.i
+.PHONY : src/primitives/Line.i
+
+# target to preprocess a source file
+src/primitives/Line.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BizierEditor.dir/build.make CMakeFiles/BizierEditor.dir/src/primitives/Line.cpp.i
+.PHONY : src/primitives/Line.cpp.i
+
+src/primitives/Line.s: src/primitives/Line.cpp.s
+.PHONY : src/primitives/Line.s
+
+# target to generate assembly for a file
+src/primitives/Line.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BizierEditor.dir/build.make CMakeFiles/BizierEditor.dir/src/primitives/Line.cpp.s
+.PHONY : src/primitives/Line.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -299,9 +347,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/base/BizierCurve.o"
-	@echo "... src/base/BizierCurve.i"
-	@echo "... src/base/BizierCurve.s"
+	@echo "... src/app/app.o"
+	@echo "... src/app/app.i"
+	@echo "... src/app/app.s"
 	@echo "... src/base/PickingTexture.o"
 	@echo "... src/base/PickingTexture.i"
 	@echo "... src/base/PickingTexture.s"
@@ -314,6 +362,12 @@ help:
 	@echo "... src/base/instance.o"
 	@echo "... src/base/instance.i"
 	@echo "... src/base/instance.s"
+	@echo "... src/primitives/BizierCurve.o"
+	@echo "... src/primitives/BizierCurve.i"
+	@echo "... src/primitives/BizierCurve.s"
+	@echo "... src/primitives/Line.o"
+	@echo "... src/primitives/Line.i"
+	@echo "... src/primitives/Line.s"
 .PHONY : help
 
 

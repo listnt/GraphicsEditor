@@ -200,6 +200,8 @@ Matrix4x4 lookAt(Vector3f eye, Vector3f center, Vector3f up);
 
 Vector3f Lerp(Vector3f a, Vector3f b, double t);
 
+Vector2f Lerp(Vector2f a, Vector2f b, double t);
+
 Vector4f ZIndexToColor4f(int zIndex);
 
 std::vector<Vector2f> CreateCircle(Vector2f center, float radius, int segments);
